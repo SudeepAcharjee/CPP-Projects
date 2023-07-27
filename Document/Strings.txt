@@ -23,3 +23,13 @@ Access Strings
 You can access the characters in a string by referring to its index number inside square brackets [].
 Change String Characters:
 To change the value of a specific character in a string, refer to the index number, and use single quotes:
+
+
+User Input Strings
+It is possible to use the extraction operator >> on cin to store a string entered by a user:
+we often use the getline() function to read a line of text. It takes cin as the first parameter, and the string variable as second:
+
+
+
+Omitting Namespace
+You might see some C++ programs that runs without the standard namespace library. The using namespace std line can be omitted and replaced with the std keyword, followed by the :: operator for string (and cout) objects:
