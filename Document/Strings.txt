@@ -10,3 +10,9 @@ The + operator can be used between strings to add them together to make a new st
 In the example above, we added a space after firstName to create a space between John and Doe on output. However, you could also add a space with quotes (" " or ' '):
 Append:
 A string in C++ is actually an object, which contain functions that can perform certain operations on strings. For example, you can also concatenate strings with the append() function:
+
+
+
+String Length:
+To get the length of a string, use the length() function:
+Tip: You might see some C++ programs that use the size() function to get the length of a string. This is just an alias of length(). It is completely up to you if you want to use length() or size():
