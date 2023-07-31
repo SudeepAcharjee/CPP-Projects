@@ -1,0 +1,21 @@
+C++ Structures
+
+Structures (also called structs) are a way to group several related variables into one place. Each variable in the structure is known as a member of the structure.
+
+Unlike an array, a structure can contain many different data types (int, string, bool, etc.).
+Create a Structure
+
+To create a structure, use the struct keyword and declare each of its members inside curly braces.
+
+After the declaration, specify the name of the structure variable (myStructure in the example below):
+struct {             // Structure declaration
+  int myNum;         // Member (int variable)
+  string myString;   // Member (string variable)
+} myStructure;       // Structure variable
+Access Structure Members
+
+To access members of a structure, use the dot syntax (.):
+
+Named Structures
+By giving a name to the structure, you can treat it as a data type. This means that you can create variables with this structure anywhere in the program at any time.
+To create a named structure, put the name of the structure right after the struct keyword:
