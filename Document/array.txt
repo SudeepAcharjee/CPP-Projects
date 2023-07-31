@@ -11,3 +11,8 @@ This statement accesses the value of the first element in cars:
 Change an Array Element
 To change the value of a specific element, refer to the index number:
 cars[0] = "Opel";
+
+
+Loop Through an Array:
+You can loop through the array elements with the for loop.
+The following example outputs all elements in the cars array:
