@@ -44,4 +44,3 @@ Note that the * sign can be confusing here, as it does two different things in o
 Modify the Pointer Value
 You can also change the pointer's value. But note that this will also change the value of the original variable:
 *ptr = "Hamburger";
-H
