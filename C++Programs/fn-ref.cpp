@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void function(int a){
+void function(int a=10){
 cout << "The numbers called are " << a << "\n";
 }
     int main ()
@@ -10,5 +10,6 @@ cout << "The numbers called are " << a << "\n";
         function(3);
         function(4);
         function(5);
+        function();
         return 0;
     }
