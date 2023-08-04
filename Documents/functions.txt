@@ -58,3 +58,12 @@ The following example has a function that takes a string called fname as paramet
 Default Parameter Value
 You can also use a default parameter value, by using the equals sign (=).
 If we call the function without an argument, it uses the default value ("Norway"):
+
+Return Values
+The void keyword, used in the previous examples, indicates that the function should not return a value. If you want the function to return a value, you can use a data type (such as int, string, etc.) instead of void, and use the return keyword inside the function:
+
+Pass By Reference
+In the examples from the previous page, we used normal variables when we passed parameters to a function. You can also pass a reference to the function. This can be useful when you need to change the value of the arguments:
+
+Pass Arrays as Function Parameters
+You can also pass arrays to a function:
