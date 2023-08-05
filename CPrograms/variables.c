@@ -10,7 +10,7 @@ int main()
         scanf ("%d", &a);
 
         printf ("Enter your name \n");
-        scanf("%s", &b);
+        scanf("%s", &b); //When using char remember it takes %c as a single letter if need more letter than use array and %s for that.
 
 
         printf("your roll number: %d \n", a);
