@@ -1,0 +1,35 @@
+Access Specifiers
+By now, you are quite familiar with the public keyword that appears in all of our class examples:
+Example
+class MyClass {  // The class
+  public:        // Access specifier
+    // class members goes here
+};
+
+The public keyword is an access specifier. Access specifiers define how the members (attributes and methods) of a class can be accessed. In the example above, the members are public - which means that they can be accessed and modified from outside the code.
+However, what if we want members to be private and hidden from the outside world?
+In C++, there are three access specifiers:
+    public - members are accessible from outside the class
+    private - members cannot be accessed (or viewed) from outside the class
+    protected - members cannot be accessed from outside the class, however, they can be accessed in inherited classes. You will learn more about Inheritance later.
+
+In the following example, we demonstrate the differences between public and private members:
+
+Note: It is possible to access private members of a class using a public method inside the same class. See the next chapter (Encapsulation) on how to do this.
+
+Tip: It is considered good practice to declare your class attributes as private (as often as you can). This will reduce the possibility of yourself (or others) to mess up the code. This is also the main ingredient of the Encapsulation concept, which you will learn more about in the next chapter.
+
+Encapsulation:
+The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must declare class variables/attributes as private (cannot be accessed from outside the class). If you want others to read or modify the value of a private member, you can provide public get and set methods.
+Access Private Members
+To access a private attribute, use public "get" and "set" methods:
+
+
+
+The salary attribute is private, which have restricted access.
+The public setSalary() method takes a parameter (s) and assigns it to the salary attribute (salary = s).
+The public getSalary() method returns the value of the private salary attribute.
+Inside main(), we create an object of the Employee class. Now we can use the setSalary() method to set the value of the private attribute to 50000. Then we call the getSalary() method on the object to return the value.
+Why Encapsulation?
+    It is considered good practice to declare your class attributes as private (as often as you can). Encapsulation ensures better control of your data, because you (or others) can change one part of the code without affecting other parts
+    Increased security of data
