@@ -13,10 +13,10 @@ int main()
         scanf("%s", &b); //When using char remember it takes %c as a single letter if need more letter than use array and %s for that.
 
         printf ("Enter your CGPA ");
-        scanf ("%2f", &c);
+        scanf ("%f", &c);
 
         printf("your roll number: %d \n", a);
         printf("Your name: %s \n", b);
-        printf("your cgpa is: %c ", c);
+        printf("your cgpa is: %f", c);
         return 0;
     }
