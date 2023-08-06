@@ -15,6 +15,9 @@ int main()
         printf ("Enter your CGPA ");
         scanf ("%f", &c);
 
+        double myDoubleNum = 19.99;  // Double (floating point number)
+  
+        printf("%lf \n", myDoubleNum);
         printf("your roll number: %d \n", a);
         printf("Your name: %s \n", b);
         printf("your cgpa is: %f", c);
