@@ -13,8 +13,6 @@ So, each "Node" box can hold a number and show where the next "Node" box is. It'
 For example, if you have a line of these boxes, the first box can hold a number and show to the second box. 
 The second box can hold a number and show to the third box, and so on. This way, you can create a line of boxes, each holding a number and pointing to the next box in the line. That's how a linked list works!*/
 
-
- 
 // Function to create a new node
 struct Node* createNode(int value) {
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
@@ -104,3 +102,4 @@ int main() {
 
     return 0;
 }
+bjBN
