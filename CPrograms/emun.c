@@ -7,7 +7,9 @@ enum Level {
 };
 
 int main() {
-  enum Level myVar = MEDIUM;
+  enum Level myVar;
+  printf("Enter the level (1 for LOW, 2 for MEDIUM, 3 for HIGH): ");
+  scanf("%d", &myVar);
   
   switch (myVar) {
     case 1:
