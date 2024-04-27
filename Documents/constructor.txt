@@ -1,8 +1,0 @@
-Constructors
-A constructor in C++ is a special method that is automatically called when an object of a class is created.
-To create a constructor, use the same name as the class, followed by parentheses ():
-Constructor Parameters
-
-Constructors can also take parameters (just like regular functions), which can be useful for setting initial values for attributes.
-The following class have brand, model and year attributes, and a constructor with different parameters. Inside the constructor we set the attributes equal to the constructor parameters (brand=x, etc). When we call the constructor (by creating an object of the class), we pass parameters to the constructor, which will set the value of the corresponding attributes to the same:
-Just like functions, constructors can also be defined outside the class. First, declare the constructor inside the class, and then define it outside of the class by specifying the name of the class, followed by the scope resolution :: operator, followed by the name of the constructor (which is the same as the class):
