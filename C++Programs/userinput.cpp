@@ -4,7 +4,7 @@ using namespace std;
     int main()
     {
         char name[15];
-        int age[3];
+        int age;
 
         cout <<"Enter Your name: ";
         cin >> name;
