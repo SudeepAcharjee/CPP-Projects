@@ -7,7 +7,7 @@ int main() {
   fptr = fopen("filename.txt", "w");
 
   // Close the file
-  fclose(fptr);
+  // fclose(fptr);
 
   return 0;
 }
