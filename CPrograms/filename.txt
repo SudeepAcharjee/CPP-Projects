@@ -1,0 +1,4 @@
+file_path = "/Users/sudeepacharjee/Desktop/Learning-Programming-languages/CPrograms/filename.txt"
+
+with open(file_path, "w") as file:
+    file.write("This is a dummy text file.")
