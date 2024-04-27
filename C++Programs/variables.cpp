@@ -9,7 +9,7 @@ using namespace std;
         bool myBoolean = true;       // Boolean (true or false) 
 
 
-        cout << "Int= " << myNum ;
+        cout << "Int= " << myNum;
         cout << "\nDouble= " << myFloatNum;
         cout << "\nChar= " << myLetter;
         cout << "\nString = " << myText;
