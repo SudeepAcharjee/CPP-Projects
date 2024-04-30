@@ -65,21 +65,11 @@ int main() {
     string s1("Hello");
     string s2("World");
 
-    cout << "Length of s1: " << s1.length() << endl;
-    cout << "Length of s2: " << s2.length() << endl;
-
-    cout << "Comparison result: " << s1.compare(s2) << endl;
-
-    s1.reverse();
-    cout << "Reversed string s1: ";
-    s1.display();
-    cout << endl;
-
-    string s3;
+    std::string s3;
     s3.copy(s1);
-    cout << "Copied string s1 to s3: ";
+    std::cout << "Copied string s1 to s3: ";
     s3.display();
-    cout << endl;
+    std::cout << std::endl;
 
     return 0;
 }
