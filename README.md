@@ -34,8 +34,7 @@ Learn fundamental programming concepts such as operators, loops, conditional sta
 ## How to Get Started?
 
 1. Explore the `basic-programs` folder to understand core programming concepts.
-2. Dive into the `dsa-questions` folder for hands-on experience with data structures and algorithms.
-3. Check out the `projects` folder to work on real-world projects and applications.
+3. Check out the `projects` folder to work on real-world projects and Lab Works.
 
 Feel free to fork, clone, or contribute to this repository to expand your C++ programming knowledge and skills!
 
