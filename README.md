@@ -47,12 +47,12 @@ Welcome to my C++ programming learning repository! This repository contains vari
 ### 9. Class Point Program
 
 - Description: A program to represent points in the two-dimensional plane.
-- Blog Post: [Class Point Program Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
+- Blog Post: [Class Point Program Blog Post](https://sudeep449.hashnode.dev/exploring-points-in-a-cartesian-plane-with-c-classes) <!-- You can replace this with the actual blog post link when it's available -->
 
 ### 10. Circle Calculator Program
 
 - Description: A program to calculate properties of circles.
-- Blog Post: [Circle Calculator Program Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
+- Blog Post: [Circle Calculator Program Blog Post](https://sudeep449.hashnode.dev/exploring-circles-in-c-with-object-oriented-programming) <!-- You can replace this with the actual blog post link when it's available -->
 
 ## Usage
 
