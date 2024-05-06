@@ -37,7 +37,7 @@ Welcome to my C++ programming learning repository! This repository contains vari
 ### 7. CRUD Operation Program
 
 - Description: Implementation of Create, Read, Update, Delete (CRUD) operations.
-- Blog Post: [CRUD Operation Program Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
+- Blog Post: [CRUD Operation Program Blog Post](https://sudeep449.hashnode.dev/crud-operation) <!-- You can replace this with the actual blog post link when it's available -->
 
 ### 8. Class Management System
 
