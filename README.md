@@ -12,7 +12,7 @@ Welcome to my C++ programming learning repository! This repository contains vari
 ### 2. Sorting Program
 
 - Description: Implementation of sorting algorithms in C++.
-- Blog Post: [Sorting Program Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
+- Blog Post: [Sorting Program Blog Post](https://sudeep449.hashnode.dev/exploring-custom-arrays-with-sorting) <!-- You can replace this with the actual blog post link when it's available -->
 
 ### 3. Polymorphism Program
 
