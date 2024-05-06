@@ -1,30 +1,30 @@
 #include <iostream>
-#include <cstring>  // For strcpy and strcmp
+#include <cstring>  // For strlen, strcpy, and strcmp
 using namespace std;
 
-class string {
+class MyString {
 private:
     char *p;
     int size;
 
 public:
     // Constructors
-    string() : p(nullptr), size(0) {}  // Default constructor
-    string(const char *str) {  // Constructor with one argument
+    MyString() : p(nullptr), size(0) {}  // Default constructor
+    MyString(const char *str) {  // Constructor with one argument
         size = strlen(str);
         p = new char[size + 1];
         strcpy(p, str);
     }
 
     // Copy constructor
-    string(const string &s) {
+    MyString(const MyString &s) {
         size = s.size;
         p = new char[size + 1];
         strcpy(p, s.p);
     }
 
     // Destructor
-    ~string() {
+    ~MyString() {
         delete[] p;
     }
 
@@ -33,11 +33,11 @@ public:
         return size;
     }
 
-    int compare(string s) {
+    int compare(MyString s) {
         return strcmp(p, s.p);
     }
 
-    void copy(string &s) {
+    void copy(MyString &s) {
         delete[] p;  // Delete old content if any
         size = s.size;
         p = new char[size + 1];
@@ -62,10 +62,10 @@ public:
 };
 
 int main() {
-    string s1("Hello");
-    string s2("World");
+    MyString s1("Hello");
+    MyString s2("World");
 
-    std::string s3;
+    MyString s3;  // Fix: Use custom string class instead of standard string class
     s3.copy(s1);
     std::cout << "Copied string s1 to s3: ";
     s3.display();

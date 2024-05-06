@@ -7,7 +7,7 @@ Welcome to my C++ programming learning repository! This repository contains vari
 ### 1. String Operation Program
 
 - Description: A program demonstrating string operations without using library functions.
-- Blog Post: [String Operation Program Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
+- Blog Post: [String Operation Program Blog Post](https://sudeep449.hashnode.dev/implementing-a-custom-string-class-in-c) <!-- You can replace this with the actual blog post link when it's available -->
 
 ### 2. Sorting Program
 
