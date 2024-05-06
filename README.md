@@ -42,7 +42,7 @@ Welcome to my C++ programming learning repository! This repository contains vari
 ### 8. Class Management System
 
 - Description: A program demonstrating class management concepts in C++.
-- Blog Post: [Class Management System Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
+- Blog Post: [Class Management System Blog Post](https://sudeep449.hashnode.dev/exploring-polymorphism-in-c-with-student-class-hierarchy) <!-- You can replace this with the actual blog post link when it's available -->
 
 ### 9. Class Point Program
 
