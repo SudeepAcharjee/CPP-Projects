@@ -1,46 +1,59 @@
-# C++ Learning Repository
+# C++ Programming Learning Repository
 
-Welcome to the C++ Learning Repository! This repository contains a variety of programs, data structures, and projects implemented in C++ to help you enhance your programming skills.
+Welcome to my C++ programming learning repository! This repository contains various programs and projects implemented in C++ to enhance programming skills.
 
-## Table of Contents
+## Programs
 
-- [Basic Programs](#basic-programs)
-- [Basic Level Projects](#basic-level-projects)
+### 1. String Operation Program
 
-## What's Inside?
+- Description: A program demonstrating string operations without using library functions.
+- Blog Post: [String Operation Program Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
 
-### Basic Programs
+### 2. Sorting Program
 
-Learn fundamental programming concepts such as operators, loops, conditional statements, arrays, pointers,OOPs and structures through practical examples and exercises.
+- Description: Implementation of sorting algorithms in C++.
+- Blog Post: [Sorting Program Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
 
+### 3. Polymorphism Program
 
-### Basic Level Projects
+- Description: Implementation of polymorphism concepts in C++.
+- Blog Post: [Polymorphism Program Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
 
+### 4. Find Triangle Program
 
-## Why Learn from This Repository?
+- Description: A program to find and classify triangles based on side lengths.
+- Blog Post: [Find Triangle Program Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
 
-- **Comprehensive Learning:** Covering a wide spectrum of programming concepts and real-world applications.
-- **Hands-On Experience:** Practice coding skills with practical projects and examples.
-- **Reference and Learning:** Use this repository as a reference for implementing similar projects or learning new concepts.
-- **Community Contributions:** Contribute your own programs, enhancements, or bug fixes to enrich the learning experience for others.
+### 5. Hospital Management System
 
+- Description: A program to manage hospital operations and patient records.
+- Blog Post: [Hospital Management System Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
 
+### 6. Employee Management System
 
-## Basic Programs
+- Description: A program to manage employee information and tasks.
+- Blog Post: [Employee Management System Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
 
+### 7. CRUD Operation Program
 
-## Explore basic level projects implemented in C++:
+- Description: Implementation of Create, Read, Update, Delete (CRUD) operations.
+- Blog Post: [CRUD Operation Program Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
 
-## How to Get Started?
+### 8. Class Management System
 
-1. Explore the `basic-programs` folder to understand core programming concepts.
-3. Check out the `projects` folder to work on real-world projects and Lab Works.
+- Description: A program demonstrating class management concepts in C++.
+- Blog Post: [Class Management System Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
 
-Feel free to fork, clone, or contribute to this repository to expand your C++ programming knowledge and skills!
+### 9. Class Point Program
 
-Happy Learning!
+- Description: A program to represent points in the two-dimensional plane.
+- Blog Post: [Class Point Program Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
 
+### 10. Circle Calculator Program
 
+- Description: A program to calculate properties of circles.
+- Blog Post: [Circle Calculator Program Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
 
+## Usage
 
-
+To run these programs, you can compile them using a C++ compiler like g++ and execute the generated binaries.
