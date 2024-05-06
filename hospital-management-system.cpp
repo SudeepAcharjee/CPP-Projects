@@ -38,6 +38,10 @@ public:
         return name;
     }
 
+    string getSpecialization() const {
+        return specialization;
+    }
+
     void addAppointment(Appointment* app) {
         appointments.push_back(app);
     }
@@ -46,7 +50,7 @@ public:
         cout << "Doctor: " << name << endl;
         cout << "Specialization: " << specialization << endl;
         cout << "Appointments:" << endl;
-        for (const auto& app : appointments) {
+        for (const Appointment* app : appointments) {
             app->displayDetails();
             cout << "-----------------" << endl;
         }
@@ -67,6 +71,10 @@ public:
         return name;
     }
 
+    int getAge() const {
+        return age;
+    }
+
     void addAppointment(Appointment* app) {
         appointments.push_back(app);
     }
@@ -75,7 +83,7 @@ public:
         cout << "Patient: " << name << endl;
         cout << "Age: " << age << endl;
         cout << "Appointments:" << endl;
-        for (const auto& app : appointments) {
+        for (const Appointment* app : appointments) {
             app->displayDetails();
             cout << "-----------------" << endl;
         }
@@ -116,4 +124,3 @@ int main() {
 
     return 0;
 }
-

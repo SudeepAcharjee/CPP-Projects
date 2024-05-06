@@ -17,22 +17,22 @@ Welcome to my C++ programming learning repository! This repository contains vari
 ### 3. Polymorphism Program
 
 - Description: Implementation of polymorphism concepts in C++.
-- Blog Post: [Polymorphism Program Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
+- Blog Post: [Polymorphism Program Blog Post](https://sudeep449.hashnode.dev/understanding-complex-numbers-with-c) <!-- You can replace this with the actual blog post link when it's available -->
 
 ### 4. Find Triangle Program
 
 - Description: A program to find and classify triangles based on side lengths.
-- Blog Post: [Find Triangle Program Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
+- Blog Post: [Find Triangle Program Blog Post](https://sudeep449.hashnode.dev/determining-triangle-properties-in-c) <!-- You can replace this with the actual blog post link when it's available -->
 
 ### 5. Hospital Management System
 
 - Description: A program to manage hospital operations and patient records.
-- Blog Post: [Hospital Management System Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
+- Blog Post: [Hospital Management System Blog Post](https://sudeep449.hashnode.dev/understanding-appointment-system-in-c) <!-- You can replace this with the actual blog post link when it's available -->
 
 ### 6. Employee Management System
 
 - Description: A program to manage employee information and tasks.
-- Blog Post: [Employee Management System Blog Post](#) <!-- You can replace this with the actual blog post link when it's available -->
+- Blog Post: [Employee Management System Blog Post](https://sudeep449.hashnode.dev/employee-management-systemc) <!-- You can replace this with the actual blog post link when it's available -->
 
 ### 7. CRUD Operation Program
 
